@@ -73,10 +73,10 @@ def clean_test_data():
     df[df.columns].describe().to_csv("data/testing_descriptions.csv")
 
     # write cleaned csv
-    df.to_csv("data/cleanTestData.csv")
+    df.to_csv("data/cleanedTestData.csv")
 
 if __name__ == "__main__":
-    clean_train_data()
+    clean_test_data()
 
 
 
